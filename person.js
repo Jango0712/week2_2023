@@ -22,7 +22,7 @@ class Person {
     
     printAll()
     {
-      for (const prop in this) {
+      for (let prop in this) {
     console.log(prop + ' - ' + this[prop])
       }
     }
